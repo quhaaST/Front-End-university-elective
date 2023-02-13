@@ -1,0 +1,102 @@
+* {
+    font-family: "Arial", serif;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.info-container {
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: azure;
+}
+
+.photo {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin-left: 50px;
+}
+
+.info-title {
+    margin-left: 1em;
+    font-size: 24px;
+}
+
+.facts-list li {
+    margin-bottom: 15px;
+}
+
+.block-title {
+    font-size: 24px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-style: italic;
+    align-self: end;
+    justify-self: end;
+    line-height: 24px;
+}
+
+.quote-author {
+    width: 100%;
+    text-align: end;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background: azure;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-link {
+    margin-top: 15px;
+    padding: 0 20px 0 20px;
+}
+
+.contact-icon {
+    width: 48px;
+    height: 48px;
+}
+
+
+
