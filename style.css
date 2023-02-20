@@ -51,8 +51,8 @@ header {
     padding: 20px;
 }
 
-.quote {
-    max-width: 60%;
+.fixed-size-info-block {
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,10 +71,29 @@ header {
     text-align: end;
 }
 
+.comic-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background: azure;
+}
+
+#comic-img {
+    width: 80%;
+    padding: 15px 0 15px 0;
+    visibility: hidden;
+}
+
+.date {
+    width: 100%;
+    text-align: end;
+}
+
 footer {
     text-align: center;
     padding: 30px 0 30px 0;
-    background: azure;
 }
 
 .contacts-container {
