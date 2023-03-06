@@ -1,0 +1,25 @@
+{
+  "name": "front_end_hw_1",
+  "version": "1.0.0",
+  "description": "Comic info retrieval",
+  "main": "script.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "author": "Evdokimov Aleksandr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quhaaST/Front-End-university-elective"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0"
+  }
+}
