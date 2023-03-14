@@ -1,19 +1,4 @@
-/**
- * Base interface for Comic information blocks.
- */
-export interface ComicInfoObject {
-    alt: string,
-    day: string,
-    img: string,
-    link: string,
-    month: string,
-    news: string,
-    num: number,
-    safe_title: string
-    title: string,
-    transcript: string,
-    year: string,
-}
+import type {ComicInfoObject} from "./comic_info_object";
 
 const email: string = "a.evdokimov@innopolis.university"
 const emailFieldName: string = "email"
